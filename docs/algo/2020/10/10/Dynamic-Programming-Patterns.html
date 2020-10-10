@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Dynamic Programming Patterns | 778677’s Blog</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Dynamic Programming Patterns" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Dynamic Programming Patterns" />
+<meta property="og:description" content="Dynamic Programming Patterns" />
+<link rel="canonical" href="/algo/2020/10/10/Dynamic-Programming-Patterns.html" />
+<meta property="og:url" content="/algo/2020/10/10/Dynamic-Programming-Patterns.html" />
+<meta property="og:site_name" content="778677’s Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-10-10T15:05:26+08:00" />
+<script type="application/ld+json">
+{"description":"Dynamic Programming Patterns","@type":"BlogPosting","url":"/algo/2020/10/10/Dynamic-Programming-Patterns.html","headline":"Dynamic Programming Patterns","dateModified":"2020-10-10T15:05:26+08:00","datePublished":"2020-10-10T15:05:26+08:00","mainEntityOfPage":{"@type":"WebPage","@id":"/algo/2020/10/10/Dynamic-Programming-Patterns.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="778677's Blog" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">778677&#39;s Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Dynamic Programming Patterns</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-10-10T15:05:26+08:00" itemprop="datePublished">Oct 10, 2020
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><a href="https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns/714716">Dynamic Programming Patterns</a></p>
+
+<p>动态规划一直是我的短板，正好有帖子谈论动态规划题型。这里做一下集中练习和思考。</p>
+
+<h2 id="模式--范式">模式 &amp; 范式</h2>
+
+<p>题主总结了几种动态规划的模式。这里的模式指的是背后的状态转移方程相似，可以归为一类细化的题型。
+在比赛中识别出题意背后的”模式”很重要，可以加快解题速度。</p>
+
+<ol>
+  <li>Minimum (Maximum) Path to Reach a Target</li>
+  <li>Distinct Ways</li>
+  <li>Merging Intervals</li>
+  <li>DP on Strings</li>
+  <li>Decision Making</li>
+</ol>
+
+<p>这里遵从题主的原意，没有做翻译。其实我也没有想到什么好的翻译。</p>
+
+<h3 id="minimum-maximum-path-to-reach-a-target">Minimum (Maximum) Path to Reach a Target</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">题目</th>
+      <th style="text-align: center">难度</th>
+      <th style="text-align: center">状态</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><a href="https://leetcode.com/problems/min-cost-climbing-stairs/">746. Min Cost Climbing Stairs</a></td>
+      <td style="text-align: center">Easy</td>
+      <td style="text-align: center"><a href="https://leetcode.com/submissions/detail/406876795/">DONE</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><a href="https://leetcode.com/problems/minimum-path-sum/">64. Minimum Path Sum</a></td>
+      <td style="text-align: center">Medium</td>
+      <td style="text-align: center"><a href="https://leetcode.com/submissions/detail/406879499/">DONE</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><a href="https://leetcode.com/problems/coin-change/">322. Coin Change</a></td>
+      <td style="text-align: center">Medium</td>
+      <td style="text-align: center"><a href="https://leetcode.com/submissions/detail/406882568/">DONE</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><a href="https://leetcode.com/problems/minimum-falling-path-sum/">931. Minimum Falling Path Sum</a></td>
+      <td style="text-align: center">Medium</td>
+      <td style="text-align: center"><a href="https://leetcode.com/submissions/detail/406888641/">DONE</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><a href="https://leetcode.com/problems/minimum-cost-for-tickets/">983. Minimum Cost For Tickets</a></td>
+      <td style="text-align: center">Medium</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><a href="https://leetcode.com/problems/2-keys-keyboard/">650. 2 Keys Keyboard</a></td>
+      <td style="text-align: center">Medium</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><a href="https://leetcode.com/problems/perfect-squares/">279. Perfect Squares</a></td>
+      <td style="text-align: center">Medium</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><a href="https://leetcode.com/problems/last-stone-weight-ii/">1049. Last Stone Weight II</a></td>
+      <td style="text-align: center">Medium</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><a href="https://leetcode.com/problems/triangle/">120. Triangle</a></td>
+      <td style="text-align: center">Medium</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><a href="https://leetcode.com/problems/ones-and-zeroes/">474. Ones and Zeroes </a></td>
+      <td style="text-align: center">Medium</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><a href="https://leetcode.com/problems/maximal-square/">221. Maximal Square</a></td>
+      <td style="text-align: center">Medium</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><a href="https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares/">1240. Tiling a Rectangle with the Fewest Squares</a></td>
+      <td style="text-align: center">Hard</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><a href="https://leetcode.com/problems/dungeon-game/">174. Dungeon Game </a></td>
+      <td style="text-align: center">Hard</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><a href="https://leetcode.com/problems/minimum-number-of-refueling-stops/">871. Minimum Number of Refueling Stops</a></td>
+      <td style="text-align: center">Hard</td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>
+
+  </div><a class="u-url" href="/algo/2020/10/10/Dynamic-Programming-Patterns.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">778677&#39;s Blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">778677&#39;s Blog</li><li><a class="u-email" href="mailto:1032419360@qq.com">1032419360@qq.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/778677"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">778677</span></a></li><li><a href="https://www.twitter.com/gg778477"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">gg778477</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>记录一些所思所想，尝试每周写点东西</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
