@@ -34,8 +34,8 @@ categories: algo
 |[64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|Medium|[DONE](https://leetcode.com/submissions/detail/406879499/)|
 |[322. Coin Change](https://leetcode.com/problems/coin-change/)|Medium|[DONE](https://leetcode.com/submissions/detail/406882568/)|
 |[931. Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/)|Medium|[DONE](https://leetcode.com/submissions/detail/406888641/)|
-|[983. Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/)|Medium||
-|[650. 2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/)|Medium||
+|[983. Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/)|Medium|[DONE](https://leetcode.com/submissions/detail/406968963/)|
+|[650. 2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/)|Medium|[DONE](https://leetcode.com/submissions/detail/406975974/)|
 |[279. Perfect Squares](https://leetcode.com/problems/perfect-squares/)|Medium||
 |[1049. Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/)|Medium||
 |[120. Triangle](https://leetcode.com/problems/triangle/)|Medium||
