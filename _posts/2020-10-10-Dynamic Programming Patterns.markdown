@@ -54,11 +54,11 @@ categories: algo
 |题目|难度|状态|
 |:--:|:--:|:--:|
 |688. Knight Probability in Chessboard|Medium|[Accepted](https://leetcode.com/submissions/detail/417025458/)|
-|494. Target Sum|Medium||
-|377. Combination Sum IV|Medium||
-|935. Knight Dialer|Medium||
-|1223. Dice Roll Simulation|Medium||
-|416. Partition Equal Subset Sum|Medium||
+|494. Target Sum|Medium|[Accepted](https://leetcode.com/submissions/detail/426333060/)|
+|377. Combination Sum IV|Medium|[Accepted](https://leetcode.com/submissions/detail/426344466/)|
+|935. Knight Dialer|Medium|[Accepted](https://leetcode.com/submissions/detail/426348319/)|
+|1223. Dice Roll Simulation|Medium|[Accepted](https://leetcode.com/submissions/detail/426372433/)|
+|416. Partition Equal Subset Sum|Medium|[Accepted](https://leetcode.com/submissions/detail/426373292/)|
 |808. Soup Servings|Medium||
 |790. Domino and Tromino Tiling|Medium||
 |801. Minimum Swaps To Make Sequences Increasing|Medium||

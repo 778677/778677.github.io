@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-05T17:15:37+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">778677’s Blog</title><subtitle>记录一些所思所想，尝试每周写点东西</subtitle><entry><title type="html">Dynamic Programming Patterns</title><link href="http://localhost:4000/algo/2020/10/10/Dynamic-Programming-Patterns.html" rel="alternate" type="text/html" title="Dynamic Programming Patterns" /><published>2020-10-10T15:05:26+08:00</published><updated>2020-10-10T15:05:26+08:00</updated><id>http://localhost:4000/algo/2020/10/10/Dynamic%20Programming%20Patterns</id><content type="html" xml:base="http://localhost:4000/algo/2020/10/10/Dynamic-Programming-Patterns.html">&lt;p&gt;&lt;a href=&quot;https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns/714716&quot;&gt;Dynamic Programming Patterns&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-03T11:58:56+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">778677’s Blog</title><subtitle>记录一些所思所想，尝试每周写点东西</subtitle><entry><title type="html">Dynamic Programming Patterns</title><link href="http://localhost:4000/algo/2020/10/10/Dynamic-Programming-Patterns.html" rel="alternate" type="text/html" title="Dynamic Programming Patterns" /><published>2020-10-10T15:05:26+08:00</published><updated>2020-10-10T15:05:26+08:00</updated><id>http://localhost:4000/algo/2020/10/10/Dynamic%20Programming%20Patterns</id><content type="html" xml:base="http://localhost:4000/algo/2020/10/10/Dynamic-Programming-Patterns.html">&lt;p&gt;&lt;a href=&quot;https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns/714716&quot;&gt;Dynamic Programming Patterns&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://i.ibb.co/k8mkWn0/Copy-of-Blue-Pine-Trees-Snowflake-Invitation.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -122,27 +122,27 @@
     &lt;tr&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;494. Target Sum&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;Medium&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://leetcode.com/submissions/detail/426333060/&quot;&gt;Accepted&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;377. Combination Sum IV&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;Medium&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://leetcode.com/submissions/detail/426344466/&quot;&gt;Accepted&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;935. Knight Dialer&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;Medium&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://leetcode.com/submissions/detail/426348319/&quot;&gt;Accepted&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;1223. Dice Roll Simulation&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;Medium&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://leetcode.com/submissions/detail/426372433/&quot;&gt;Accepted&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;416. Partition Equal Subset Sum&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;Medium&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://leetcode.com/submissions/detail/426373292/&quot;&gt;Accepted&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;808. Soup Servings&lt;/td&gt;
